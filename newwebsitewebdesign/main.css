@@ -1,0 +1,30 @@
+    body {
+        background-color: burlywood;
+        font-size: 20px;
+    }
+
+    p {
+        background-color: darkviolet;
+        border-width: 20px;
+        border-style: solid;
+        border-color: blue;
+        border: 20px dotted orchid;
+        /* Margin will create external space around our element*/
+        margin: 50px;
+
+        /* padding is the internal spacing for our elements */
+        padding: 50px;
+
+    }
+
+    h1 {
+        color: aquamarine;
+
+    }
+
+    /* in CSS classes are denoted by a . in front of their class name*/
+    .banner {
+        background-color: yellow;
+        font-size: 40px;
+        text-align: center;
+    }

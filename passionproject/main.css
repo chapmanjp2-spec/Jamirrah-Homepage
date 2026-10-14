@@ -1,0 +1,9 @@
+html {
+
+    background: url(Studio.jpg)no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    font-size: larger;
+}

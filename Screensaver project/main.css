@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+    background-color: lightskyblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+ animation:colorcycle 8s ease-in-out infinite  alternate;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🛩️</text></svg>") 16 0, auto;
+}
+
+
+@keyframes colorcycle{
+    0%{
+        background-color: #FF5E62;
+    }
+    50%{
+        background-color:#FF9966;
+    }
+    100%{
+        background-color:#000046;
+    }
+}
+
+
+.cloud{
+    font-size:80px;
+    width: 200px;
+    height:40px;
+    position: absolute;
+    top:1px;
+    bottom:0px;
+    animation:scroll 39s linear infinite;
+}
+
+@keyframes scroll {
+    0%{
+    left:0%;
+    }
+
+    100%{
+        left:100%;
+    }
+}
+
+.cloud2{
+    font-size:100px;
+    width: 200px;
+    height:40px;
+    position: absolute;
+    top:80px;
+    bottom:80px;
+    animation:scroll 38s linear infinite;
+}
+
+@keyframes scroll {
+    0%{
+    left:0%;
+    }
+
+    100%{
+        left:100%;
+    }
+}
+
+.cloud3{
+    font-size:100px;
+    width: 200px;
+    height:40px;
+    position: absolute;
+    top:100px;
+    bottom:100px;
+    animation:scroll 37s linear infinite;
+}
+
+@keyframes scroll {
+    0%{
+    left:0%;
+    }
+
+    100%{
+        left:100%;
+    }
+}
+
+.cloud4{
+    font-size:200px;
+    width: 200px;
+    height:40px;
+    position: absolute;
+    top:150px;
+    bottom:120px;
+    animation:scroll 36s linear infinite;
+}
+
+@keyframes scroll {
+    0%{
+    left:0%;
+    }
+
+    100%{
+        left:100%;
+    }
+}
+
+.cloud5{
+    font-size:70px;
+    width:200px;
+    height:40px;
+    position: absolute;
+    top:120px;
+    bottom:150px;
+    animation:scroll 35s linear infinite;
+}
+
+@keyframes scroll {
+    0%{
+    left:0%;
+    }
+
+    100%{
+        left:100%;
+    }
+}
+
+.cloud6{
+    font-size:60px;
+    width:200px;
+    height:40px;
+    position: absolute;
+    transform: translate(50px, -20px);
+    animation:scroll 34s linear infinite;
+}
+
+@keyframes scroll {
+    0%{
+    left:0%;
+    }
+
+    100%{
+        left:100%;
+    }
+}
+
+.cloud7{
+    font-size:300px;
+    width:200px;
+    height:40px;
+    position: absolute;
+    transform: translate(30px, 20px);
+    animation:scroll 33s linear infinite;
+}
+
+@keyframes scroll {
+    0%{
+    left:0%;
+    }
+
+    100%{
+        left:100%;
+    }
+}
+
+.cloud8{
+    font-size:400px;
+    width:200px;
+    height:40px;
+    position: absolute; 
+    transform: translate(-50%, -20%);
+    animation:scroll 32s linear infinite;
+}
+
+@keyframes scroll {
+    0%{
+    left:0%;
+    }
+
+    100%{
+        left:100%;
+    }
+}
+
+.cloud9{
+    font-size:100px;
+    width:200px;
+    height:40px;
+    position: absolute; 
+    top:150px;
+    bottom:130px;
+    animation:scroll 31s linear infinite;
+}
+
+@keyframes scroll {
+    0%{
+    left:0%;
+    }
+
+    100%{
+        left:100%;
+    }
+}
+
+.cloud10{
+    font-size:40px;
+    width:200px;
+    height:40px;
+    position: absolute; 
+    transform: translate(70px, 10px);
+    animation:scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+    0%{
+    left:0%;
+    }
+
+    100%{
+        left:100%;
+    }
+}
+

@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+  body {
+    margin: 0;
+  
+}
+ 
+
+.container{
+    background-image: url(raccoon\ city.jpg);
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+}
+
+.top{
+    background-image: url(giphy.gif);
+    height: 40%;
+    display: flex;
+    background-repeat:repeat-x;
+    justify-content:space-evenly;
+    gap: 5px;
+}
+
+.top-item {
+    background-color: coral;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+
+.bottom{
+    height: 80%;
+    display: flex;
+    gap:10px;
+}
+
+
+.left{
+    background-image: url(ems.jpg);
+    background-size:360px;
+    background-repeat: no-repeat;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.right{
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap-reverse;
+  justify-content:center;
+  gap: 10px;
+  margin: 30px;
+
+}
+
+.right-item-1{
+  width: 320px;
+  height: 50%;
+  align-items: flex-end;
+  border-radius: 20px;
+  font-size: large;
+  color: white;
+  }
+  
+
+
+.right-item-2{
+  background-image: url(evil.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 50%;
+  align-items: flex-end;
+  border-radius: 20px;
+}
+
+.right-item-3{
+  width: 320px;
+  height: 50%;
+  align-items: flex-end;
+  border-radius: 20px;
+  font-size: large;
+  color: white;
+}
+
+
+
+.right-item-4{
+  background-image: url(smile.jpeg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 320px;
+  height: 50%;
+  align-items:flex-end;
+  border-radius: 20px;
+}
+
+.right-item-5{
+  width: 300px;
+  height: 50%;
+  align-items: flex-end;
+  border-radius: 20px;
+  font-size: large;
+  color: white;
+}
+
+.right-item-6{
+  background-image: url(blood.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 320px;
+  height: 50%;
+  align-items: flex-end;
+  border-radius: 20px;
+}
+
